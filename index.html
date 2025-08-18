@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/Index css files/Index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bg-white p-1 fixed-top top-0">
+        <div class="container d-none d-lg-flex justify-content-between p-2 py-md-3 py-lg-4">
+            <div class="links d-flex align-items-center gap-1 gap-md-1 gap-lg-4 d-none d-md-none d-lg-flex">
+                <!-- Home Links -->
+                <nav>
+                    <div class="dropdown ms-lg-5">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            HOME <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="#">YOUTUBE BACKGROUND</a></li>
+                                <li><a href="#">YOUTUBE BACKGROUND CLASSIC</a></li>
+                                <li><a href="#">SLIDER FULL SCREEN</a></li>
+                                <li><a href="#">SLIDER CLASSIC</a></li>
+                                <li><a href="#">IMAGE FULL SCREEN</a></li>
+                                <li><a href="#">IMAGE CLASSIC</a></li>
+                                <li><a href="#">HTML5 VIDEO FULL SCREEN</a></li>
+                                <li><a href="#">HTML5 VIDEO CLASSIC</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Home Links -->
+                <!-- Pages Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="./about.html">ABOUT</a></li>
+                                <li><a href="./Spa&Message.html">SPA & WELLNESS</a></li>
+                                <li><a href="Yoga.html">YOGA & RELAX</a></li>
+                                <li><a href="./wilderness.html">WILDERNESS</a></li>
+                                <li><a href="./Cuisine.html">CUISINE</a></li>
+                                <li><a href="Venues.html">VENUES</a></li>
+                                <li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="#">RTL PAGE</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Pages Links -->
+                <!-- Retreats Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Retreats <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="./backpacking.html">GUIDED BACKPACKING TOUR</a></li>
+                                <li><a href="./Herbel.html">HERBAL MEDICINE 101</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Retreats Links -->
+            </div>
+            <!-- end of left side links -->
+            <!-- logo -->
+            <a href="index.html"><img class="logo ms-lg-5 d-none d-lg-block" src="./assets/logo-nirvana.png"
+                    alt="logo"></a>
+            <!-- logo -->
+            <!-- start of right side links -->
+            <div class="links d-flex align-items-center gap-1 gap-md-1 gap-lg-4 d-none d-md-none d-lg-flex">
+                <!-- Blog Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="./blog archive.html">BLOG ARCHIVE</a></li>
+                                <li><a href="./blogsingle.html">SINGLE BLOG</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Blog Links -->
+                <!-- Contact Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2 p-2">
+                                <li><a href="./contact.html">CONTACT</a></li>
+                                <li><a href="./reserve.html">RESERVE</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Contact Links -->
+                <!-- Components Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Components <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="#">BACKGROUND</a></li>
+                                <li><a href="#">BUTTONS</a></li>
+                                <li><a href="#">CAROUSEL</a></li>
+                                <li><a href="#">COLORS</a></li>
+                                <li><a href="#">DECORATIVE HELPERS</a></li>
+                                <li><a href="#">DROPDOWNS</a></li>
+                                <li><a href="#">FONTAWESOME</a></li>
+                                <li><a href="#">GOOGLE MAP</a></li>
+                                <li><a href="#">GRID</a></li>
+                                <li><a href="#">LAYOUT HELPERS</a></li>
+                                <li><a href="#">LIGHTBOX</a></li>
+                                <li><a href="#">MODALS</a></li>
+                                <li><a href="#">PARALLAX</a></li>
+                                <li><a href="#">SMTPJS</a></li>
+                                <li><a href="#">SPACING</a></li>
+                                <li><a href="#">SWIPER</a></li>
+                                <li><a href="#">TYPOGRAPHY</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Components Links -->
+                <!-- DocsLinks -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Docs <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="#">GETTING STARTED</a></li>
+                                <li><a href="#">FILE STRUCTURE</a></li>
+                                <li><a href="#">CUSTOMIZATION</a></li>
+                                <li><a href="#">GULP</a></li>
+                                <li><a href="#">RTL</a></li>
+                                <li><a href="#">PLUGINS</a></li>
+                                <li><a href="#">CHANGELOG</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- DocsLinks  -->
+            </div>
+            <!-- end of right side links -->
+        </div>
+    </header>
+    <!-- header for tablet and phone -->
+    <header class="d-lg-none fixed-top top-0">
+        <!-- test -->
+        <nav class="d-lg-none col-12 navbar navbar-expand-lg bg-body-tertiary p-0">
+            <div class="container-fluid bg-white d-flex justify-content-between py-3 px-4">
+                <a href="index.html"><img class="logo ms-lg-5 d-lg-none" src="./assets/logo-nirvana.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="#">YOUTUBE BACKGROUND</a></li>
+                                    <li><a href="#">YOUTUBE BACKGROUND CLASSIC</a></li>
+                                    <li><a href="#">SLIDER FULL SCREEN</a></li>
+                                    <li><a href="#">SLIDER CLASSIC</a></li>
+                                    <li><a href="#">IMAGE FULL SCREEN</a></li>
+                                    <li><a href="#">IMAGE CLASSIC</a></li>
+                                    <li><a href="#">HTML5 VIDEO FULL SCREEN</a></li>
+                                    <li><a href="#">HTML5 VIDEO CLASSIC</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="./about.html">ABOUT</a></li>
+                                    <li><a href="./Spa&Message.html">SPA & WELLNESS</a></li>
+                                    <li><a href="Yoga.html">YOGA & RELAX</a></li>
+                                    <li><a href="./wilderness.html">WILDERNESS</a></li>
+                                    <li><a href="./Cuisine.html">CUISINE</a></li>
+                                    <li><a href="Venues.html">VENUES</a></li>
+                                    <li><a href="gallery.html">GALLERY</a></li>
+                                    <li><a href="#">RTL PAGE</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Retreats <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="./backpacking.html">GUIDED BACKPACKING TOUR</a></li>
+                                    <li><a href="./Herbel.html">HERBAL MEDICINE 101</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="./blog archive.html">BLOG ARCHIVE</a></li>
+                                    <li><a href="./blogsingle.html">SINGLE BLOG</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2 p-2">
+                                    <li><a href="./contact.html">CONTACT</a></li>
+                                    <li><a href="./reserve.html">RESERVE</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Components <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="#">BACKGROUND</a></li>
+                                    <li><a href="#">BUTTONS</a></li>
+                                    <li><a href="#">CAROUSEL</a></li>
+                                    <li><a href="#">COLORS</a></li>
+                                    <li><a href="#">DECORATIVE HELPERS</a></li>
+                                    <li><a href="#">DROPDOWNS</a></li>
+                                    <li><a href="#">FONTAWESOME</a></li>
+                                    <li><a href="#">GOOGLE MAP</a></li>
+                                    <li><a href="#">GRID</a></li>
+                                    <li><a href="#">LAYOUT HELPERS</a></li>
+                                    <li><a href="#">LIGHTBOX</a></li>
+                                    <li><a href="#">MODALS</a></li>
+                                    <li><a href="#">PARALLAX</a></li>
+                                    <li><a href="#">SMTPJS</a></li>
+                                    <li><a href="#">SPACING</a></li>
+                                    <li><a href="#">SWIPER</a></li>
+                                    <li><a href="#">TYPOGRAPHY</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Docs <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="#">GETTING STARTED</a></li>
+                                    <li><a href="#">FILE STRUCTURE</a></li>
+                                    <li><a href="#">CUSTOMIZATION</a></li>
+                                    <li><a href="#">GULP</a></li>
+                                    <li><a href="#">RTL</a></li>
+                                    <li><a href="#">PLUGINS</a></li>
+                                    <li><a href="#">CHANGELOG</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- test -->
+    </header>
+    <!-- header for tablet and phone -->
+    <div class="hero">
+        <video class="col-12" src="./assets/Blue Lagoon Geothermal Spa in Iceland.mp4" autoplay muted loop></video>
+        <div
+            class="overlay col-12 d-flex flex-column justify-content-between align-items-center text-white text-center">
+            <div class="overlaytext d-flex flex-column justify-content-center h-100">
+                <p data-aos="fade-up" data-aos-duration="500" style="font-size: clamp(12px, 1.5vw, 21px);">Welcome to
+                </p>
+                <div class="Nirvana col-12">
+                    <p class=" display-2 m-0" data-aos="fade-up" data-aos-duration="1000">Nirvana</p>
+                    <p class="display-2 m-0" data-aos="fade-up" data-aos-duration="1500">Liveliness</p>
+                </div>
+                <ul class="d-flex flex-row justify-content-center align-items-center gap-4 p-0" data-aos="fade-up"
+                    data-aos-duration="2000">
+                    <a href="#">Retreats</a>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Spa</a></li>
+                </ul>
+                <div class="forbtn d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2500">
+                    <button class=" col-8 col-lg-5 border-0 py-3 px-4 btn btn-primary mt-5">OUR STORY</button>
+                </div>
+            </div>
+            <a href="#target-down" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                <i class="fa-solid fa-angles-down fs-1"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- section 1--------------------------- -->
+
+    <div id="target-down"
+        class="section-1 container d-flex flex-column justify-content-center align-items-center px-4 mt-5 pb-4">
+        <div class="d-flex flex-column justify-content-center py-5 px-2 p-lg-5 mt-5 mb-5">
+            <div style="border: 1px solid rgba(0, 0, 0, 0.13);" class="rounded p-3 p-lg-5">
+                <div id="top-text"
+                    class="d-flex flex-column justify-content-center align-items-center text-center py-2 py-md-5 py-lg-2 px-3 px-md-5 px-lg-5">
+                    <p>A sanctuary of escape</p>
+                    <p>to help people reset themselves</p>
+                    <hr class=" mb-4">
+                </div>
+                <p id="bottom-text">A luxury yoga, fitness & wellbeing holiday, focusing on your health in Mind, Body
+                    and Skin. Remember
+                    to take care of yourself, you cannot pour from an empty cup. Harmonize your body, mind & soul with
+                    yoga. Take yoga beyond the Mat Training. Do your practice and peace will come.</p>
+            </div>
+        </div>
+
+        <!-- carousel------------------------------- -->
+
+        <div class="texttop col-12 d-flex flex-column align-items-center mb-3 mb-lg-3">
+            <h3>Retreats Coming</h3>
+            <hr class="short mb-4">
+        </div>
+        <div class=" d-flex col-12 flex-wrap flex-lg-row p-lg-4 justify-content-center align-items-center">
+            <div class=" col-12 col-md-6 col-lg-4 px-3 d-flex text-center flex-column gap-3">
+                <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-lg-3">
+                            <img src="./assets/car1-pic1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item p-lg-3">
+                            <img src="./assets/car1-pic2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="carousel-det d-flex flex-column">
+                    <a id="topic-link" class="fw-bolder h4" href="#">YOGA & FITNESS</a>
+                    <a id="topic-date" class="fw-bold h6" href="#">MARCH 2025</a>
+                    <p id="topic-dis" class="text-center">Always control what goes inside. Just balance your mind and
+                        body with Yoga.
+                        Create the healthy living for yourself.</p>
+                    <a id="topic-link" class="fw-bolder h6" href="#">LEARN MORE &gt;</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 px-3 d-flex text-center flex-column mt-5 mt-md-0 mt-lg-0 gap-3">
+                <div id="carousel2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-lg-3">
+                            <img src="./assets/car2-pic1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item p-lg-3">
+                            <img src="./assets/car2-pic2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="carousel-det d-flex flex-column">
+                    <a id="topic-link" class="fw-bolder h4" href="#">HERBAL MEDICINE</a>
+                    <a id="topic-date" class="fw-bold h6" href="#">APRIL 2025</a>
+                    <p id="topic-dis" class="text-center">The practice of naturopathic medicine includes modern,
+                        traditional, scientific, and empirical methods. Come for a healthy life.
+                    </p>
+                    <a id="topic-link" class="fw-bolder h6" href="#">LEARN MORE &gt;</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 px-3 d-flex text-center flex-column mt-5 mt-lg-0 gap-3">
+                <div id="carousel3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-lg-3">
+                            <img src="./assets/car3-pic1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item p-lg-3">
+                            <img src="./assets/car3-pic2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="carousel-det d-flex flex-column">
+                    <a id="topic-link" class="fw-bolder h4" href="#">GUIDED SURFING TRIP</a>
+                    <a id="topic-date" class="fw-bold h6" href="#">MAY 2025</a>
+                    <p id="topic-dis" class="text-center">Free your inner adventure with guided surfing trip. Enjoy the
+                        thrill, take the challenge and refresh your mind in the sea.
+                    </p>
+                    <a id="topic-link" class="fw-bolder h6" href="#">LEARN MORE &gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2 col-12 d-flex">
+        <div class="sec2overlay col-12 d-flex">
+            <div
+                class="container d-flex justify-content-center justify-content-md-center justify-content-lg-end px-lg-5">
+                <div
+                    class="col-12 col-md-6 col-lg-5 d-flex flex-column justify-content-center align-items-center p-lg-5 text-center">
+                    <h2 class="fw-bolder display-3 text-white" data-aos="fade-up" data-aos-duration="1000">Spa & Bath
+                    </h2>
+                    <p class="fw-medium h5 text-white" data-aos="fade-up" data-aos-duration="1500">We offer the ideal
+                        atmosphere for relaxation and personal care. A
+                        real treat for the body and mind
+                        that will help you to balance the effects of work and stress.</p>
+                    <button data-aos="fade-up" data-aos-duration="2000"
+                        class=" col-8 col-lg-5 border-2 border-white py-3 px-4 btn btn-primary mt-4">LEARN
+                        MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------ -->
+    <div class="section-3 col-12 d-flex py-lg-5 my-5 justify-content-center align-items-center">
+        <div class="container d-flex flex-column flex-md-row flex-lg-row gap-2 p-4 p-md-3 p-lg-5">
+            <div id="left-side"
+                class="col-12 col-md-5 col-lg-5 d-flex flex-column justify-content-lg-center text-start py-3 p-lg-5 order-2 order-md-1 order-lg-1">
+                <h2 class="fw-bolder display-6" data-aos="fade-up" data-aos-duration="1000">Rest & Relax</h2>
+                <p class="fw-medium h6 text-black" data-aos="fade-up" data-aos-duration="1500">Every now and then go
+                    away, have a little relaxation, for when you
+                    come back to your work your judgment will be surer. Go some distance away because then the work
+                    appears smaller and more of it can be taken in at a glance and a lack of harmony and proportion is
+                    more readily seen.
+                </p>
+                <button data-aos="fade-up" data-aos-duration="2000"
+                    class=" col-8 col-lg-5 py-3 px-4 btn btn-primary mt-5">LEARN MORE</button>
+            </div>
+
+            <div id="right-side" class="col-12 col-md-7 col-lg-7 order-1 order-md-2 order-lg-2">
+                <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-md-2 p-lg-4 mt-md-3">
+                            <img src="./assets/section-3-car-pic1.jpg" class="d-block w-100 rounded-4" alt="...">
+                        </div>
+                        <div class="carousel-item p-md-2 p-lg-4 mt-md-3">
+                            <img src="./assets/section-3-car-pic2.jpg" class="d-block w-100 rounded-4" alt="...">
+                        </div>
+                        <div class="carousel-item p-md-2 p-lg-4 mt-md-3">
+                            <img src="./assets/section-3-car-pic3.jpg" class="d-block w-100 rounded-4" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------ -->
+    <div class="section-4 col-12 d-flex">
+        <div class="sec2overlay col-12 d-flex">
+            <div
+                class="container d-flex justify-content-center justify-content-md-center justify-content-lg-end px-lg-5">
+                <div
+                    class="col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center p-lg-5 text-center">
+                    <h2 class="fw-bolder display-3 text-white" data-aos="fade-up" data-aos-duration="1000">Explore
+                        Nature</h2>
+                    <p class="fw-medium h5 text-white" data-aos="fade-up" data-aos-duration="1500">When all the world
+                        appears to be in a tumult, and nature itself
+                        is feeling the assault of climate change, the seasons retain their essential rhythm.</p>
+                    <button data-aos="fade-up" data-aos-duration="2000"
+                        class=" col-8 col-lg-5 border-2 border-white py-3 px-4 btn btn-primary mt-4">LEARN
+                        MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-5 col-12 d-flex py-lg-5 my-5 justify-content-center align-items-center">
+        <div class="container d-flex flex-column flex-md-row flex-lg-row gap-2 p-4 p-md-3 p-lg-5">
+            <div id="left-side"
+                class="col-12 col-md-5 col-lg-5 d-flex flex-column justify-content-lg-center text-start py-3 p-lg-5 order-2 order-md-1 order-lg-1">
+                <h2 class="fw-bolder display-6" data-aos="fade-up" data-aos-duration="1000">Organic Cuisine</h2>
+                <p class="fw-medium h6 text-black" data-aos="fade-up" data-aos-duration="1500">Nature has always cared for us. So why not taking that care? Come to
+                    Nirvana and taste our organic cuisine today. Organic foods may have higher nutritional value than
+                    conventional food that help building your good health.
+                </p>
+                <button class=" col-8 col-lg-5 py-3 px-4 btn btn-primary mt-5" data-aos="fade-up" data-aos-duration="2000">LEARN MORE</button>
+            </div>
+
+            <div id="right-side" class="col-12 col-md-7 col-lg-7 order-1 order-md-2 order-lg-2">
+                <div id="carousel5" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-md-2 p-lg-4 mt-md-3">
+                            <img src="./assets/organic cuisine pic1.jpg" class="d-block w-100 rounded-4" alt="...">
+                        </div>
+                        <div class="carousel-item p-md-2 p-lg-4 mt-md-3">
+                            <img src="./assets/organic cuisine pic2.jpg" class="d-block w-100 rounded-4" alt="...">
+                        </div>
+                        <div class="carousel-item p-md-2 p-lg-4 mt-md-3">
+                            <img src="./assets/organic cuisine pic3.jpg" class="d-block w-100 rounded-4" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel5"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel5"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------- -->
+    <!-- ================================= -->
+    <div class="section-6 col-12 d-flex">
+        <div class="sec2overlay col-12 d-flex">
+            <div class="container d-flex justify-content-center px-lg-5">
+                <div
+                    class="col-12 col-md-6 col-lg-8 d-flex flex-column justify-content-center align-items-center text-center">
+                    <h2 class="fw-bolder display-3 text-white" data-aos="fade-up" data-aos-duration="1000">Reserve Your Adventure</h2>
+                    <p class="fw-bold h5 text-white" data-aos="fade-up" data-aos-duration="1500">Discover the world you've never seen, explore the horizon you
+                        never reached, unravel the mystery of nature. Reserve your life changing adventurous journey
+                        today with Nirvana along with
+                        Spa, Yoga and more healthy retreats.</p>
+                    <button
+                        class=" col-8 col-lg-5 border-2 border-white py-3 px-4 btn btn-primary mt-4" data-aos="fade-up" data-aos-duration="2000">INQUIRE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================================= -->
+    <div class="section-7 col-12 d-flex flex-column">
+        <div class="texttop col-12 d-flex flex-column align-items-center mb-3 mb-lg-3 mt-5 pt-5">
+            <h3 class="fs-1" data-aos="fade-up" data-aos-duration="1000">Testimonials</h3>
+            <hr class="short mb-4">
+        </div>
+        <div id="carouselExample" class=" carousel slide p-lg-5">
+            <div class="carousel-inner p-lg-5">
+                <div class="carousel-item active p-lg-5">
+                    <div
+                        class="container d-flex flex-column col-11 col-md-7 col-lg-11 flex-md-row flex-lg-row justify-content-center align-items-center p-4 p-md-0 p-lg-0">
+                        <img src="./assets/Testimonials 1.jpg" class="rounded-circle col-6 col-md-3 col-lg-2"
+                            alt="Testimonials">
+                        <div class="d-flex flex-column p-3 px-md-4 py-md-5 p-lg-4 col-12 col-md-12 col-lg-8">
+                            <p>Change is not something that we should fear. Rather, it is something that we should
+                                welcome.
+                                For without change, nothing in this world would ever grow or blossom.</p>
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6 class="fw-medium fs-md-5 fs-lg-5 mt-4 mb-0 text-uppercase">John Doe</h6>
+                                <p class="fs-md-6 fs-lg-6">Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-lg-5">
+                    <div
+                        class="container d-flex flex-column col-11 col-md-7 col-lg-11 flex-md-row flex-lg-row justify-content-center align-items-center p-4 p-md-0 p-lg-0">
+                        <img src="./assets/Testimonials 2.jpg" class="rounded-circle col-6 col-md-3 col-lg-2"
+                            alt="Testimonials">
+                        <div class="d-flex flex-column p-3 px-md-4 py-md-5 p-lg-4 col-12 col-md-12 col-lg-8">
+                            <p>Keep close to Nature's heart... and break clear away, once in awhile, and climb a
+                                mountain or spend a week in the woods. Wash your spirit clean.</p>
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6 class="fw-medium fs-md-5 fs-lg-5 mt-4 mb-0 text-uppercase">Jack Foster</h6>
+                                <p class="fs-md-6 fs-lg-6">Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-lg-5">
+                    <div
+                        class="container d-flex flex-column col-11 col-md-7 col-lg-11 flex-md-row flex-lg-row justify-content-center align-items-center p-4 p-md-0 p-lg-0">
+                        <img src="./assets/Testimonials 3.jpg" class="rounded-circle col-6 col-md-3 col-lg-2"
+                            alt="Testimonials">
+                        <div class="d-flex flex-column p-3 px-md-4 py-md-5 p-lg-4 col-12 col-md-12 col-lg-8">
+                            <p>We live in a wonderful world that is full of beauty, charm and adventure. There is no end
+                                to the adventures that we can have if only we seek them with our eyes open.</p>
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6 class="fw-medium fs-md-5 fs-lg-5 mt-4 mb-0 text-uppercase">Natasha Romannof</h6>
+                                <p class="fs-md-6 fs-lg-6">Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <i class="fa-solid fa-circle-arrow-left fs-1 text-success"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <i class="fa-solid fa-circle-arrow-right text-success fs-1"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- =================================== -->
+    <!-- ==================================== -->
+    <div class="section-8 d-flex flex-column">
+        <div class="texttop col-12 d-flex flex-column align-items-center mb-3 mb-lg-5 mt-5 pt-5">
+            <h3 class="fs-1" data-aos="fade-up" data-aos-duration="1000">As featured in</h3>
+            <hr class="short mb-4">
+        </div>
+        <div" class="swiper mySwiper col-8 col-md-12 col-lg-5 d-flex flex-column pb-5 px-md-3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper1.jpg"
+                        class="img-fluid border rounded col-12 " /></div>
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper2.jpg"
+                        class="img-fluid border rounded col-12" /></div>
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper3.jpg"
+                        class="img-fluid border rounded col-12 " /></div>
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper4.jpg"
+                        class="img-fluid border rounded col-12 " /></div>
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper5.jpg"
+                        class="img-fluid border rounded col-12" /></div>
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper6.jpg"
+                        class="img-fluid border rounded col-12 " /></div>
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper7.jpg"
+                        class="img-fluid border rounded col-12 " /></div>
+                <div class="swiper-slide"><img src="./assets/swiper assets/Swiper8.jpg"
+                        class="img-fluid border rounded col-12 " /></div>
+            </div>
+            <div class="swiper-pagination"></div>
+    </div>
+    </div>
+    <!-- ==================================== -->
+    <!-- ==================================== -->
+    <footer class="p-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center col-12">
+            <div class="d-flex flex-row justify-content-center align-items-center gap-4 p-0" data-aos="fade-up" data-aos-duration="1000">
+                <a href="#">About</a>
+                <a href="#">Connect</a>
+                <a href="#">Terms & Products</a>
+            </div>
+            <img src="./assets/footer logo.png" alt="logo" data-aos="fade-up" data-aos-duration="1500">
+            <ul data-aos="fade-up" data-aos-duration="1000"
+                class="d-flex flex-column flex-md-row flex-lg-row justify-content-center align-items-center gap-md-4 gap-lg-4 p-0">
+                <a class="me-3" href="#">tel:(212)123-4567</a>
+                <li>
+                    <p>666 Unnamed ave, california</p>
+                </li>
+                <li class="ms-3"><a href="#">nirvana@abc.com</a></li>
+            </ul>
+            <form class="d-flex flex-column flex-md-row flex-lg-row flex-wrap col-12 col-md-6 col-lg-6 gap-2 mt-4">
+                <input class="col-12 col-md-7 col-lg-7 p-2 rounded-3 border-0" type="email"
+                    placeholder="Enter Email Here" required>
+                <button class="rounded-1 col-12 col-md-4 col-lg-4 py-3 fw-bold fs-6">SUBMIT</button>
+            </form>
+        </div>
+    </footer>
+    <!-- ==================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="./Js/index.js"></script>
+</body>
+
+</html>

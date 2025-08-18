@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ============header=================== */
+header {
+  .dropdown {
+    a {
+      text-decoration: none;
+      font-family: "Josefin Sans", sans-serif;
+      color: #0a2d63;
+      font-weight: 800;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: 300ms;
+
+      &:hover {
+        color: black;
+      }
+      span {
+        font-size: 10px;
+      }
+    }
+    &:hover {
+      #dropdown-menulg {
+        min-width: 280px;
+        box-shadow: 1px black;
+        border-radius: 0;
+        display: block;
+      }
+    }
+  }
+  .logo {
+    width: 70px;
+    height: 66px;
+  }
+}
+/* ================hero======================= */
+.hero {
+  height: 100vh;
+  position: relative;
+
+  video {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+    .overlaytext {
+      p {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      .Nirvana {
+        p {
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+      ul {
+        a {
+          text-decoration: none;
+          font-family: "PT Sans", sans-serif;
+          font-weight: 500;
+          font-size: clamp(13px, 1.5vw, 28px);
+          color: white;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      button {
+        border-radius: 3.125rem;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-family: "Josefin Sans", sans-serif;
+        background-color: #0a2d63;
+        font-size: 12px;
+        &:hover {
+          background-color: #061b3b;
+        }
+      }
+    }
+    a {
+      color: white;
+    }
+  }
+}
+/* ==================section-1=============== */
+.section-1 {
+  #top-text {
+    p {
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 500;
+      color: #0a2d63;
+      font-size: 1.7rem;
+      margin: 0;
+    }
+  }
+  hr {
+    width: 4rem;
+  }
+  #bottom-text {
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    color: #7f7f7f;
+  }
+  h3 {
+    color: #0a2d63;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  #carousel1,
+  #carousel2,
+  #carousel3 {
+    button {
+      display: none;
+    }
+    &:hover {
+      button {
+        display: block;
+      }
+    }
+    img {
+      border-radius: 10px;
+    }
+  }
+  .carousel-det {
+    #topic-link {
+      font-family: "Josefin Sans", sans-serif;
+      color: #0a2d63;
+    }
+    #topic-date {
+      color: #bebebe;
+    }
+    #topic-dis {
+      font-family: "PT Sans", sans-serif;
+    }
+    #topic-link,
+    #topic-date {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+/* ==================section-2-4-6=============== */
+.section-2,
+.section-4,
+.section-6 {
+  background-image: url(./section-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  transform: translate3d(0px, 25px, 0px);
+  .sec2overlay {
+    background-color: #0000004d;
+
+    h2 {
+      font-family: "Josefin Sans", sans-serif;
+    }
+    p {
+      font-family: "PT Sans", sans-serif;
+    }
+
+    button {
+      border-radius: 3.125rem;
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-family: "Josefin Sans", sans-serif;
+      background-color: transparent;
+      font-size: 12px;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
+
+.section-4 {
+  background-image: url(./section-4.jpg);
+}
+
+.section-6 {
+  background-image: url(./section-6.jpg);
+}
+/* ===============section-3-5=============== */
+.section-3,
+.section-5 {
+  h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #0a2d63;
+  }
+  p {
+    font-family: "PT Sans", sans-serif;
+  }
+  #left-side {
+    button {
+      color: #0a2d63;
+      border-radius: 3.125rem;
+      letter-spacing: 2px;
+      border: 2px solid #0a2d63;
+      font-weight: 600;
+      font-family: "Josefin Sans", sans-serif;
+      background-color: transparent;
+      font-size: 12px;
+      &:hover {
+        background-color: #0a2d63;
+        color: white;
+      }
+    }
+  }
+  #right-side {
+    #carousel {
+      button {
+        display: none;
+      }
+      &:hover {
+        button {
+          display: block;
+        }
+      }
+    }
+  }
+}
+/* ==================section-7=============== */
+.section-7 {
+  background-color: #fafafa;
+  h3 {
+    color: #0a2d63;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  hr {
+    width: 4rem;
+  }
+  h6 {
+    font-family: "Josefin Sans", sans-serif;
+  }
+  p {
+    font-family: "PT Sans", sans-serif;
+  }
+}
+/* ==================section-8=============== */
+.section-8 {
+  h3 {
+    color: #0a2d63;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  hr {
+    width: 4rem;
+  }
+  .swiper-slide {
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+  }
+}
+/* ---------------footer--------------- */
+footer {
+  background-color: #0a2d63;
+  li{
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: clamp(13px, 0.8vw, 28px);
+    color: white;
+    margin: 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: clamp(13px, 0.8vw, 28px);
+    color: white;
+    margin: 0;
+  }
+  button{
+    font-family: "Josefin Sans", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 200ms;
+    &:hover{
+      background-color: white;
+      color: black;
+    }
+  }
+}
+/* ========================================= */

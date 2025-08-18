@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ============header=================== */
+header {
+  .dropdown {
+    a {
+      text-decoration: none;
+      font-family: "Josefin Sans", sans-serif;
+      color: #0a2d63;
+      font-weight: 800;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: 300ms;
+
+      &:hover {
+        color: black;
+      }
+      span {
+        font-size: 10px;
+      }
+    }
+    &:hover {
+      #dropdown-menulg {
+        min-width: 280px;
+        box-shadow: 1px black;
+        border-radius: 0;
+        display: block;
+      }
+    }
+  }
+  .logo {
+    width: 70px;
+    height: 66px;
+  }
+}
+/* ================topBGimg======================= */
+.topBGimg {
+  background-image: url(./herbel-top-bgimage.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+/* ================topBGimg======================= */
+/* ================toptext, hero======================= */
+#top-text,
+.hero {
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #0a2d63;
+    font-size: 2.3rem;
+  }
+  h5,
+  h1 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #0a2d63;
+  }
+  p {
+    font-family: "PT Sans", sans-serif;
+    color: #7f7f7f;
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  li {
+    font-family: "PT Sans", sans-serif;
+    color: #6a6a6a;
+  }
+  button {
+    border-radius: 3.125rem;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #0a2d63;
+    border: 2px solid #0a2d63;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    &:hover {
+      color: white;
+      background-color: #0a2d63;
+    }
+  }
+  .packages {
+    h6 {
+      font-family: "Josefin Sans", sans-serif;
+      color: #0a2d63;
+    }
+    p {
+      font-family: "PT Sans", sans-serif;
+      color: #7F7F7f;
+    }
+  }
+}
+/* ================toptext, hero======================= */
+/* ---------------footer--------------- */
+footer {
+  background-color: #0a2d63;
+  li {
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: clamp(13px, 0.8vw, 28px);
+    color: white;
+    margin: 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: clamp(13px, 0.8vw, 28px);
+    color: white;
+    margin: 0;
+  }
+  button {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 200ms;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+/* ========================================= */

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/Cuisine css files/Cuisine.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bg-white p-1 fixed-top top-0">
+        <div class="container d-none d-lg-flex justify-content-between p-2 py-md-3 py-lg-4">
+            <div class="links d-flex align-items-center gap-1 gap-md-1 gap-lg-4 d-none d-md-none d-lg-flex">
+                <!-- Home Links -->
+                <nav>
+                    <div class="dropdown ms-lg-5">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            HOME <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="#">YOUTUBE BACKGROUND</a></li>
+                                <li><a href="#">YOUTUBE BACKGROUND CLASSIC</a></li>
+                                <li><a href="#">SLIDER FULL SCREEN</a></li>
+                                <li><a href="#">SLIDER CLASSIC</a></li>
+                                <li><a href="#">IMAGE FULL SCREEN</a></li>
+                                <li><a href="#">IMAGE CLASSIC</a></li>
+                                <li><a href="#">HTML5 VIDEO FULL SCREEN</a></li>
+                                <li><a href="#">HTML5 VIDEO CLASSIC</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Home Links -->
+                <!-- Pages Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="./about.html">ABOUT</a></li>
+                                <li><a href="./Spa&Message.html">SPA & WELLNESS</a></li>
+                                <li><a href="Yoga.html">YOGA & RELAX</a></li>
+                                <li><a href="./wilderness.html">WILDERNESS</a></li>
+                                <li><a href="./Cuisine.html">CUISINE</a></li>
+                                <li><a href="Venues.html">VENUES</a></li>
+                                <li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="#">RTL PAGE</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Pages Links -->
+                <!-- Retreats Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Retreats <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="./backpacking.html">GUIDED BACKPACKING TOUR</a></li>
+                                <li><a href="./Herbel.html">HERBAL MEDICINE 101</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Retreats Links -->
+            </div>
+            <!-- end of left side links -->
+            <!-- logo -->
+            <a href="index.html"><img class="logo ms-lg-5 d-none d-lg-block" src="./assets/logo-nirvana.png" alt="logo"></a>
+            <!-- logo -->
+            <!-- start of right side links -->
+            <div class="links d-flex align-items-center gap-1 gap-md-1 gap-lg-4 d-none d-md-none d-lg-flex">
+                <!-- Blog Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="./blog archive.html">BLOG ARCHIVE</a></li>
+                                <li><a href="./blogsingle.html">SINGLE BLOG</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Blog Links -->
+                <!-- Contact Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2 p-2">
+                                <li><a href="./contact.html">CONTACT</a></li>
+                                <li><a href="./reserve.html">RESERVE</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Contact Links -->
+                <!-- Components Links -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Components <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="#">BACKGROUND</a></li>
+                                <li><a href="#">BUTTONS</a></li>
+                                <li><a href="#">CAROUSEL</a></li>
+                                <li><a href="#">COLORS</a></li>
+                                <li><a href="#">DECORATIVE HELPERS</a></li>
+                                <li><a href="#">DROPDOWNS</a></li>
+                                <li><a href="#">FONTAWESOME</a></li>
+                                <li><a href="#">GOOGLE MAP</a></li>
+                                <li><a href="#">GRID</a></li>
+                                <li><a href="#">LAYOUT HELPERS</a></li>
+                                <li><a href="#">LIGHTBOX</a></li>
+                                <li><a href="#">MODALS</a></li>
+                                <li><a href="#">PARALLAX</a></li>
+                                <li><a href="#">SMTPJS</a></li>
+                                <li><a href="#">SPACING</a></li>
+                                <li><a href="#">SWIPER</a></li>
+                                <li><a href="#">TYPOGRAPHY</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- Components Links -->
+                <!-- DocsLinks -->
+                <nav>
+                    <div class="dropdown">
+                        <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Docs <span><i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+
+                        <ul id="dropdown-menulg" class="dropdown-menu p-lg-4 rounded">
+                            <div class=" d-flex flex-column gap-2">
+                                <li><a href="#">GETTING STARTED</a></li>
+                                <li><a href="#">FILE STRUCTURE</a></li>
+                                <li><a href="#">CUSTOMIZATION</a></li>
+                                <li><a href="#">GULP</a></li>
+                                <li><a href="#">RTL</a></li>
+                                <li><a href="#">PLUGINS</a></li>
+                                <li><a href="#">CHANGELOG</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- DocsLinks  -->
+            </div>
+            <!-- end of right side links -->
+        </div>
+    </header>
+    <!-- header for tablet and phone -->
+    <header class="d-lg-none fixed-top top-0">
+        <!-- test -->
+        <nav class="d-lg-none col-12 navbar navbar-expand-lg bg-body-tertiary p-0">
+            <div class="container-fluid bg-white d-flex justify-content-between py-3 px-4">
+                <a href="index.html"><img class="logo ms-lg-5 d-lg-none" src="./assets/logo-nirvana.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="#">YOUTUBE BACKGROUND</a></li>
+                                    <li><a href="#">YOUTUBE BACKGROUND CLASSIC</a></li>
+                                    <li><a href="#">SLIDER FULL SCREEN</a></li>
+                                    <li><a href="#">SLIDER CLASSIC</a></li>
+                                    <li><a href="#">IMAGE FULL SCREEN</a></li>
+                                    <li><a href="#">IMAGE CLASSIC</a></li>
+                                    <li><a href="#">HTML5 VIDEO FULL SCREEN</a></li>
+                                    <li><a href="#">HTML5 VIDEO CLASSIC</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                <li><a href="./about.html">ABOUT</a></li>
+                                <li><a href="./Spa&Message.html">SPA & WELLNESS</a></li>
+                                <li><a href="Yoga.html">YOGA & RELAX</a></li>
+                                <li><a href="./wilderness.html">WILDERNESS</a></li>
+                                <li><a href="./Cuisine.html">CUISINE</a></li>
+                                <li><a href="Venues.html">VENUES</a></li>
+                                <li><a href="gallery.html">GALLERY</a></li>
+                                    <li><a href="#">RTL PAGE</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Retreats <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                <li><a href="./backpacking.html">GUIDED BACKPACKING TOUR</a></li>
+                                <li><a href="./Herbel.html">HERBAL MEDICINE 101</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                <li><a href="./blog archive.html">BLOG ARCHIVE</a></li>
+                                <li><a href="./blogsingle.html">SINGLE BLOG</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2 p-2">
+                                <li><a href="./contact.html">CONTACT</a></li>
+                                <li><a href="./reserve.html">RESERVE</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Components <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="#">BACKGROUND</a></li>
+                                    <li><a href="#">BUTTONS</a></li>
+                                    <li><a href="#">CAROUSEL</a></li>
+                                    <li><a href="#">COLORS</a></li>
+                                    <li><a href="#">DECORATIVE HELPERS</a></li>
+                                    <li><a href="#">DROPDOWNS</a></li>
+                                    <li><a href="#">FONTAWESOME</a></li>
+                                    <li><a href="#">GOOGLE MAP</a></li>
+                                    <li><a href="#">GRID</a></li>
+                                    <li><a href="#">LAYOUT HELPERS</a></li>
+                                    <li><a href="#">LIGHTBOX</a></li>
+                                    <li><a href="#">MODALS</a></li>
+                                    <li><a href="#">PARALLAX</a></li>
+                                    <li><a href="#">SMTPJS</a></li>
+                                    <li><a href="#">SPACING</a></li>
+                                    <li><a href="#">SWIPER</a></li>
+                                    <li><a href="#">TYPOGRAPHY</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-flex justify-content-between" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Docs <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu border-0 py-2 px-4">
+                                <div class=" d-flex flex-column gap-2">
+                                    <li><a href="#">GETTING STARTED</a></li>
+                                    <li><a href="#">FILE STRUCTURE</a></li>
+                                    <li><a href="#">CUSTOMIZATION</a></li>
+                                    <li><a href="#">GULP</a></li>
+                                    <li><a href="#">RTL</a></li>
+                                    <li><a href="#">PLUGINS</a></li>
+                                    <li><a href="#">CHANGELOG</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- test -->
+    </header>
+    <!-- header for tablet and phone -->
+    <!-- herooooooooooooooooooo -->
+    <div class="hero d-flex flex-column align-items-center">
+        <div class="overlaytext d-flex flex-column justify-content-center text-white text-center h-100">
+            <p data-aos="fade-up" data-aos-duration="1000" class="text-uppercase fw-bold" style="font-size: clamp(12px, 1.7vw, 21px);">nirvana experience</p>
+            <p data-aos="fade-up" data-aos-duration="1500" class=" display-2 m-0 p-3 p-md-0 p-lg-0 text-uppercase fw-bolder">Cuisine</p>
+        </div>
+        <a href="#target-down" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+            <i class="fa-solid fa-angles-down fs-1"></i>
+        </a>
+    </div>
+    <!-- herooooooooooooooooooo -->
+    <!-- section-1-------------------- -->
+    <div id="target-down"
+        class="section-1 container d-flex flex-column flex-md-row flex-lg-row mt-5 px-4 px-md-5 px-lg-5 pb-5 pt-5 gap-4">
+        <div class="col-12 col-md-8 col-lg-8 d-flex flex-column gap-4">
+            <div>
+                <h2 class="fw-medium text-start mt-4 mb-1 fs-3" data-aos="fade-up" data-aos-duration="1000">From the Garden</h2>
+                <p class="mt-2 text-start pe-5" data-aos="fade-up" data-aos-duration="1500">Here is some description text. Lorem ipsum dolor sit amet, mel rebum
+                    sensibus expetenda ex, vix probo appellantur ei. No harum interesset quaerendum ius. Vim id mollis
+                    tibique gubergren, mei melius splendide consequuntur ut. Dico postea vim in, ad primis adipiscing
+                    vim. Per et amet nemore insolens, mel an posse gubergren.</p>
+                <div class="d-flex flex-wrap mt-4">
+                    <div class="d-flex flex-column col-6">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-first imgs1.jpg">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-first imgs2.jpg" alt="">
+                    </div>
+                    <div class="d-flex flex-column col-6">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-first imgs3.jpg" alt="">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-first imgs4.jpg" alt="">
+                    </div>
+                    <img class="col-12" src="./CSS/Cuisine css files/Cuisine-first imgs5.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <h2 class="fw-medium text-start mt-4 mb-1 fs-3" data-aos="fade-up" data-aos-duration="1000">Fresh & Organic</h2>
+                <p data-aos="fade-up" data-aos-duration="1500" class="mt-2 text-start pe-5">Here is some description text. Lorem ipsum dolor sit amet, mel rebum
+                    sensibus expetenda ex, vix probo appellantur ei. No harum interesset quaerendum ius. Vim id mollis
+                    tibique gubergren, mei melius splendide consequuntur ut.</p>
+                <div class="d-flex flex-wrap mt-4">
+                    <div class="d-flex flex-column col-6">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-second imgs1.jpg">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-second imgs2.jpg" alt="">
+                    </div>
+                    <div class="d-flex flex-column col-6">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-second imgs3.jpg" alt="">
+                        <img class="col-12" src="./CSS/Cuisine css files/Cuisine-second imgs4.jpg" alt="">
+                    </div>
+                    <img class="col-12 mb-5" src="./CSS/Cuisine css files/Cuisine-second imgs5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box col-12 col-md-4 col-lg-4 mt-md-4">
+            <div class="d-flex flex-column justify-content-center p-2 p-md-2 p-lg-2">
+                <div style="border: 1px solid rgba(0, 0, 0, 0.13);"
+                    class="d-flex flex-column align-items-center border-start-0 border-end-0 py-4 gap-3">
+                    <div id="top-text"
+                        class="d-flex flex-column justify-content-center align-items-center text-center px-2 px-md-2 px-lg-5">
+                        <h5 class="fw-medium mb-1 text-uppercase">kitchen open daily</h5>
+                        <h6 class="fw-bolder">7AM - 9PM</h6>
+                    </div>
+                    <p id="bottom-text" class="text-center px-lg-4">Here is some description text. Dico postea vim in,
+                        ad primis No harum interesset quaerendum ius. Vim id mollis tibique gubergren, mei melius
+                        splendide consequuntur ut.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section-1-------------------- -->
+    <!-- ===============footer===================== -->
+    <footer class="p-5 mt-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center col-12">
+            <div class="d-flex flex-row justify-content-center align-items-center gap-4 p-0" data-aos="fade-up" data-aos-duration="1000">
+                <a href="#">About</a>
+                <a href="#">Connect</a>
+                <a href="#">Terms & Products</a>
+            </div>
+            <img src="./assets/footer logo.png" alt="logo" data-aos="fade-up" data-aos-duration="1500">
+            <ul data-aos="fade-up" data-aos-duration="1000"
+                class="d-flex flex-column flex-md-row flex-lg-row justify-content-center align-items-center gap-md-4 gap-lg-4 p-0">
+                <a class="me-3" href="#">tel:(212)123-4567</a>
+                <li>
+                    <p>666 Unnamed ave, california</p>
+                </li>
+                <li class="ms-3"><a href="#">nirvana@abc.com</a></li>
+            </ul>
+            <form class="d-flex flex-column flex-md-row flex-lg-row flex-wrap col-12 col-md-6 col-lg-6 gap-2 mt-4">
+                <input class="col-12 col-md-7 col-lg-7 p-2 rounded-3 border-0" type="email"
+                    placeholder="Enter Email Here" required>
+                <button class="rounded-1 col-12 col-md-4 col-lg-4 py-3 fw-bold fs-6">SUBMIT</button>
+            </form>
+        </div>
+    </footer>
+    <!-- ==================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+</body>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ============header=================== */
+header {
+  .dropdown {
+    a {
+      text-decoration: none;
+      font-family: "Josefin Sans", sans-serif;
+      color: #0a2d63;
+      font-weight: 800;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: 300ms;
+
+      &:hover {
+        color: black;
+      }
+      span {
+        font-size: 10px;
+      }
+    }
+    &:hover {
+      #dropdown-menulg {
+        min-width: 280px;
+        box-shadow: 1px black;
+        border-radius: 0;
+        display: block;
+      }
+    }
+  }
+  .logo {
+    width: 70px;
+    height: 66px;
+  }
+}
+/* ================hero======================= */
+.hero {
+  background-image: url(./376144-4k-wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .overlaytext {
+    p {
+      font-family: "Josefin Sans", sans-serif;
+    }
+  }
+  a {
+    color: white;
+  }
+}
+/* ================hero======================= */
+/* ================section-1--2======================= */
+.section-1,
+.section-2 {
+  h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #0a2d63;
+  }
+  p {
+    font-family: "PT Sans", sans-serif;
+    color: #7f7f7f;
+  }
+  .uni {
+    p {
+      font-family: "Josefin Sans", sans-serif;
+      color: #0a2d63;
+    }
+  }
+}
+/* ================section-1--2======================= */
+/* ================section-3======================= */
+.section-3 {
+  img {
+    padding: 8px;
+  }
+}
+/* ================section-3======================= */
+/* ---------------footer--------------- */
+footer {
+  background-color: #0a2d63;
+  li {
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: clamp(13px, 0.8vw, 28px);
+    color: white;
+    margin: 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: clamp(13px, 0.8vw, 28px);
+    color: white;
+    margin: 0;
+  }
+  button {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 200ms;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+/* ========================================= */
